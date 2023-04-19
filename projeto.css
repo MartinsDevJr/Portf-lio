@@ -1,0 +1,173 @@
+@import url(/imagens/casa2.png);
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Berkshire+Swash&family=Playfair+Display:wght@800&family=Roboto+Condensed&family=Rock+Salt&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Berkshire+Swash&family=Playfair+Display:wght@800&family=Roboto+Condensed&family=Rock+Salt&family=Sacramento&display=swap');
+
+*{
+    font-family: Roboto, sans serif;
+    color: rgb(255, 255, 255);
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: #170656f6;
+    background-image: url(/imagens/casa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: auto;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: 1/-1;
+} 
+
+/*TITULO*/
+ .titulo{
+  margin: 0;
+  padding: 55px;
+  font-size: 38px;
+  margin-top: 10%;
+  line-break:auto;
+  text-align: start;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+}
+
+/*CAIXA*/
+
+    div .caixa {
+    width: 500px;
+    height: 680px;
+    background-color: #180656;
+    margin-top:  -60%;
+    margin-bottom: 0%;
+    margin-left: 120% ;
+    border-radius: 15px;
+    padding-top:0;
+    padding-bottom: 0;
+    align-items: center;
+    display: grid;
+    grid: 1/1;
+    grid-template-columns: 1fr;}
+
+   .input1{
+    
+    
+    margin:3%;
+    padding: 3%;
+    align-items: center;
+    width: 400px ;
+    height: 2px;
+    margin-left: 7%;
+    margin-bottom: 0;
+    background-color: #fff;
+    padding-top: 4%;
+    color: #000;
+    font-size: 1.1rem;}
+    
+    .input2{
+    
+    
+    margin:3%;
+    padding: 3%;
+    align-items: center;
+    width: 400px ;
+    height: 2px;
+    margin-left: 7%;
+    margin-bottom: 0;
+    background-color: #fff;
+    padding-top: 4%;
+    color: #000;
+    font-size: 1.1rem;}
+    
+        .input3{
+    
+    
+         margin:3%;
+         padding: 3%;
+         align-items: center;
+         width: 400px ;
+         height: 2px;
+         margin-left: 7%;
+         background-color: #fff;
+         padding-top: 4%;
+         color: #000;
+         font-size: 1.1rem;}
+        
+.txtitulo{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    gap:30%;
+    padding-top: 6%;}
+
+div .enviar{
+    background-color: yellow;
+    color: #180656;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    margin-left: 16%;
+    margin-top: -4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 350px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;}
+
+div .txtsubt p{
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 5%;
+    margin-left: -2%;
+    padding-top: 0;
+    margin-bottom: -14% ;
+}
+
+ .caixa p{
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 7%;
+    margin-top: 2%;
+    
+    
+
+    /*TITULO 2*/
+    
+}
+   .txtsubt2 {
+    
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: 1/-1;
+    float: inline-start; 
+    position: absolute;
+    margin-left: -39%;
+    margin-top: 25%;
+    }
+
+.txtp {
+    color: #ffff;
+    font-family: poppins;
+    text-align: center;
+    padding: 3px;
+    padding-right: 38px;
+    padding-bottom: 30px;
+    margin: 0;
+    font-weight: 250;
+    cursor: pointer;
+    font-style:normal;
+    
+
+}
+
+

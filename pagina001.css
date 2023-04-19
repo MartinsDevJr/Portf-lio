@@ -1,0 +1,337 @@
+
+/*CORPO*/
+
+@import url(https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Condensed&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+    
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000;
+    animation: inicializar.7s forwards;
+    background-repeat: no-repeat;
+    height: auto;
+  
+}
+
+/*HEADER*/ 
+
+header {
+    background-color: #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header h1 {
+    color: #ffff;
+    font-size: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header span {
+    color: #dc3545;
+}
+
+header .navegacao-primaria {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header .navegacao-primaria li a {
+    padding: 10px;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-family: poppins;
+    font-weight: 280;
+
+}
+/*CADASTRO*/
+.caixa__login{
+    
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #111010;
+    font-size: 27px;
+    font-family: poppins;
+    width: 500px;
+    height: 500px;
+   
+    
+    }
+
+    nav .inscreva-se{
+        font-size: 26px;
+        margin-left: 0px;
+        padding: 24px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-bottom: -45px;
+    }
+
+   .news{
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    color: #ffff;
+    margin-left: 22px;
+    margin-top: -2px;
+    
+   }
+    .cadastro {
+        margin-top: 1px;
+        gap: 20px;
+    }
+    
+    .login-email {
+    font-size: 15px;
+    font-family: poppins;
+    text-align: start;
+    
+}
+
+    #caixa-email {
+        width: 400px;
+        height: 50px;
+        align-items: center;
+        margin-top: -1pc;
+        margin-left: -2%;
+        border-radius: 50px;
+        padding: 20px;
+        margin-left: 50px;
+
+    }
+
+    .login-password {
+    font-size: 15px;
+    font-family: poppins;
+    align-items: center;
+    justify-self: start;
+}
+
+    #caixa-senha{
+        
+        width: 400px;
+        height: 50px;
+        align-items: center;
+        margin: 3px;
+        margin-top: -1pc;
+        margin-left: -2%;
+        border-radius: 50px;
+        padding: 20px;
+        margin-left: 50px;
+    }
+
+    .enviar {
+        padding: -50px;
+        padding-right: 20px;
+        margin-left: -70px;
+    } 
+    .caixa {
+        
+        margin: -10px;
+        gap: 10px;
+        align-items: center;
+        margin-left: 165px;}
+
+    .acessar {
+    width: 100px;
+    height: 40px;
+    border-radius: 60px;
+    border: #dc3545;
+    margin-left: 200px;
+    border-bottom: #000;
+    background-color: #dc3545;
+    color:white;
+    padding: 8px 4px 2px 100px;
+
+}
+
+.esqueci  {
+   color: white;
+   font-size: 10pt;
+   font-weight: 300;
+  width: 150px;
+    
+}
+/*SEÇÃO INFO*/
+
+.section-div  {
+animation: inicializar.7s forwards;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-around;
+align-items: center;
+gap: 60px;
+padding: 60px;
+color: #ffff;
+}
+
+.section-div div {
+    margin-top: 80px;
+    align-self: start;
+    display: grid;
+    gap: 30px;}
+
+.boasvindas {
+
+    font-family: poppins;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 34px;
+    gap: 30px;}
+
+.digitando {
+    font-family: poppins;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 34px;}
+    
+.sobtxt {
+        font-family: poppins;
+        font-weight: 280;}
+        
+.sobtxt::after {
+content:'|';
+margin-left: 5px;
+opacity: 5;
+animation: pisca .5s infinite;}
+                                        
+@keyframes pisca {
+from {opacity: 3;}
+to {opacity: 0;}}
+                
+        
+.entre-em-contato {
+justify-self: start;
+color: #ffff;
+padding: 15px 40px;
+border-radius: 5px;
+border: 2px solid #dc3545;
+font-family: poppins;
+background-color: #dc3545;}
+
+/*HOVER*/
+   
+.entre-em-contato:hover{
+background-color:#60151c;
+transition: 0.55s;
+border: none;
+
+
+}
+
+/*FIM*/
+
+.img {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-around;
+align-items: center;
+gap: 60px;
+
+}
+
+@keyframes inicializar {
+from {
+opacity: 0;
+transform: translate3d(0, -60px, 0);}
+to {opacity: 10;
+transform: translate3d(0, 0, 0);}}
+    
+.sobre-conteudo {
+font-family: poppins;
+font-weight: 310;
+color: #b0adad;
+font-size: 15px;
+font-size: 15px;}
+
+.p-perfil-profissional {
+color: #ffff;
+font-family: poppins;
+font-weight: 400;}
+        
+/*MAIN*/
+
+.botao-1{
+    border: #14031b solid 2px  ;
+    color: white;
+    border-width: 150px;
+    margin: 30px 50px 40px;
+    display: flex ;
+    width: 40px;
+    float:left;
+    gap: 10px;
+    border-radius: 10px;}
+
+    
+
+    .botao-2{
+        border: #14031b solid 2px  ;
+        color: white;
+        border-width: 150px;
+        margin: 30px 50px 40px;
+        display: flex ;
+        width: 40px;
+        float:left;
+        gap: 10px;
+        border-radius: 10px;}
+
+    .botao-3{
+       border: #14031b solid 2px  ;
+       color: white;
+       border-width: 150px;
+       margin: 30px 50px 40px;
+       display: flex ;
+       width: 40px;
+       float:left;
+       gap: 10px;
+       border-radius: 10px;}
+   
+    .txtfin{
+        color: #ffff;
+        font-family: poppins;
+        text-align: justify;
+        padding: 20px;
+        margin: 0;
+        font-weight: 250;
+        grid-column: 1/-1;
+        margin-left: 40%;
+        margin-top: 10%;
+
+    }
+  
+/* RESPONSIVIDADE */
+ 
+
+    
+
+@media(max-width: 922px){
+    
+}    
+
+        
+
+    
+
+    
+    
+
+   
+       
+ 
+       
+
+       
